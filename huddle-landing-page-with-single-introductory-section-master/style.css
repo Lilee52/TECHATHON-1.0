@@ -26,6 +26,10 @@ main {
     margin: 0 auto;
 } 
 
+.btn:hover {
+    background: hsl(300, 69%, 71%);
+}
+
 footer {
     margin: auto;
 }
