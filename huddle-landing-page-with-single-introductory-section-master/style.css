@@ -32,9 +32,13 @@ main {
     color: white;
 }
 
-.icon-contain:hover {
-    background: hsl(300, 69%, 71%);
+.fa-brands:hover {
+    color: hsl(300, 69%, 71%);
     cursor: pointer;
+}
+
+.icon-contain:hover {
+    border: 1px solid hsl(300, 69%, 71%);
 }
 
 footer {
