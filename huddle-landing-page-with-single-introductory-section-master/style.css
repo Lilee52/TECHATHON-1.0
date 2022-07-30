@@ -28,6 +28,13 @@ main {
 
 .btn:hover {
     background: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: white;
+}
+
+.icon-contain:hover {
+    background: hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 
 footer {
@@ -40,7 +47,7 @@ footer {
      text-align: center; 
     }
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+     color: gray; 
     }
 
 
@@ -535,7 +542,7 @@ footer {
     }
 
     .main-container {
-        margin-top: 1.2em;
+        margin-top: 1.9em;
     }
     .first-container {
         margin-top: 0.2em;
@@ -546,17 +553,35 @@ footer {
     .second-container {
         width: 500px;
         height: 70vh;
-        margin-top: -0.1em;
+        margin-top: -1.2em;
+    }
+
+    .paragraph {
+        line-height: 19px;
+    }
+
+    .logo-container {
+        max-width: 140px;
+    }
+
+    h1 {
+        margin-bottom: 0.4em;
     }
 
     .btn {
-        height: 7vh;
+        height: 6vh;
         border-radius: 20px;
+        margin-top: 1em;
     }
 
     .social-icons {
-        margin-top: 4em;
-        margin-right: 13em;
+        margin-top: 6.5em;
+        margin-right: 12em;
+    }
+
+    .icon-contain {
+        height: 4vh;
+        max-width: 180px;
     }
 }
 
