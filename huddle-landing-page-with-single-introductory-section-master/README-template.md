@@ -8,11 +8,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -32,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Lilee52/TECHATHON-1.0/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: (https://lilee52.github.io/TECHATHON-1.0/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
