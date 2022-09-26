@@ -86,7 +86,7 @@ p {
 }
 
 .product-container {
-    background-image: url(../images/image-product-mobile.JPG);
+    background-image: url(../images/image-product-mobile.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-top-left-radius: 10px;
@@ -140,7 +140,7 @@ button:hover {
 
 .product-container {
     flex: 50%;
-    background-image: url(../images/image-product-desktop.JPG);
+    background-image: url(../images/image-product-desktop.jpg);
     background-size: 100% 100%;
     height: 415px;
     border-top-left-radius: 10px;
