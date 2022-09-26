@@ -1,0 +1,414 @@
+/* general styles */
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    margin: 0em auto;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.d-profile {
+    border: 3px solid hsl(0, 0%, 100%);
+    height: 5vh;
+    width: 40px;
+    border-radius: 40px;
+
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.all {
+    margin: 0 auto;
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    width: 70%;
+    
+}
+
+h2 {
+    font-size: 15px;
+    text-align: left;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.heading {
+    width: 220px;
+}
+
+.qualification {
+    margin-top: -0.7em;
+}
+
+h3 {
+    font-size: 8px;
+}
+
+.qualification {
+    font-size: 10px;
+}
+
+/* .white-a and other-p is the color property for verified graduates */
+/* .white-p and .other-p is the color property for the paragraphs */
+
+.white-a {
+    color: hsla(0, 0%, 100%, 50%);
+}
+
+.other-a {
+    color: hsla(217, 19%, 35%, 50%);
+}
+
+.white-p {
+    color: hsla(0, 0%, 100%, 70%);
+}
+
+.other-p {
+    color: hsla(217, 19%, 35%, 70%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.other {
+    color: hsl(217, 19%, 35%);
+}
+
+.intro {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.picture {
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* grid section colors */
+
+.grid-1 {
+    background:  hsl(263, 55%, 52%);
+}
+
+.grid-2 {
+    background:  hsl(217, 19%, 35%);
+}
+
+.grid-3 {
+    background: hsl(0, 0%, 100%);
+}
+
+.grid-4 {
+    background: hsl(219, 29%, 14%);
+}
+
+.grid-5 {
+    background: hsl(0, 0%, 100%);
+}
+
+.violet {
+    border-color:  hsl(263, 55%, 52%);
+}
+
+.shadow-box {
+    box-shadow: 0px 5px 95px 0px  hsl(0, 0%, 81%);
+}
+
+/* big quote styles */
+.quote {
+    width: 100%;
+    height: 17vh;    
+}
+
+.quote-contain {
+    width: 70px;
+    right: 0%;
+    left: 76%;
+    height: 3vh;
+    padding-right: 1em;
+    z-index: 1;
+    top: -2em;
+    position: relative;
+
+}
+
+/* dipslay styles the container of big quote, .d-profile and .qualification */
+
+.reverse-flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.positioning {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    gap: 0.5em;
+    left: 0;
+}
+
+.container {
+    margin-top: 3em;
+    position: relative;
+    z-index: 3;
+}
+
+@media (min-width: 280px) {
+    .quote {
+        height: 19vh;
+    }
+
+    .d-profile {
+        height: 6vh;
+    }
+}
+
+@media (min-width: 320px) {
+    .quote-contain {
+        width: 38%;
+        left: 156px;
+    }
+
+    .quote {
+        height: 17vh;
+    }
+
+    .heading {
+        width: 234px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .qualification {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 375px) {
+    .quote {
+        height: 18vh;
+    }
+
+   h2 {
+    font-size: 18px;
+   }
+
+   .quote-contain {
+    left: 180px;
+   }
+}
+
+@media (min-width: 412px) {
+    .quote {
+        height: 16.5vh;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .quote-contain {
+        width: 30%;
+        left: 240px;
+    }
+
+    .quote {
+        height: 19vh;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .heading {
+        width: 375px;
+    }
+
+    .intro {
+        font-size: 16px;
+        width: 355px;
+    }
+}
+
+
+@media (min-width: 540px) {
+    .heading {
+        width: 375px;
+    }
+
+    .quote {
+        height: 20vh;
+    }
+
+    .quote-contain {
+        width: 35%;
+        left: 240px;
+    }
+
+    .all {
+        width: 370px
+    }
+}
+
+
+/* display on larger screen with grid */
+@media (min-width: 1280px) {
+    main {
+        width: 100%;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        "a a b c"
+        "d e e c";
+        width: 1250px;
+        margin: 2em auto;
+        gap: 10px;
+        grid-template-columns: repeat(4, 315px);
+        grid-template-rows: repeat(2, 368px);
+    }
+
+    .grid-1 {
+        grid-area: a;
+        width: 550px;
+        height: 37vh;
+    }
+
+    .grid-2 {
+        grid-area: b;
+        width: 225px;
+        height: 37vh;
+    }
+
+    .grid-3 {
+        grid-area: d;
+        width: 225px;
+        margin-top: -0.5em;
+    }
+
+    .grid-4 {
+        grid-area: e;
+        width: 550px;
+        margin-top: -0.5em;
+    }
+
+    .grid-5 {
+        grid-area: c;
+        width: 225px;
+    }
+
+
+    /* styles within individual 5 main divs */
+    h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .intro {
+        font-size: 13px;
+    }
+
+    .intro-1 {
+        width: 540px;
+    }
+
+    .heading-1 {
+        width: 540px;
+    }
+
+    .heading-2 {
+        width: 210px;
+    }
+
+    .intro-2 {
+        width: 210px;
+    }
+
+    .heading-3 {
+        width: 210px;
+    }
+
+    .intro-3 {
+        width: 210px;
+    }
+
+    .heading-4 {
+        width: 540px;
+    }
+
+    .intro-4 {
+        width: 530px;
+    }
+
+    .heading-5 {
+        width: 210px;
+    }
+
+    .intro-5 {
+        width: 230px;
+        margin-top: 2.6em;
+        font-size: 14px;
+    }
+
+    .all {
+        padding-top: 2em;
+        padding-left: 2.5em;
+        margin-left: 0%;
+    }
+
+    .quote {
+        height: 16.7vh;
+        margin-top: 0.8em;
+    }
+
+    .quote-contain {
+        width: 22%;
+        left: 349px;
+    }
+
+
+    .d-profile {
+        height: 5.5vh
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
