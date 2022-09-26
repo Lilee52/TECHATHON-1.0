@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
         email.style.border = "2px solid hsl(354, 100%, 66%)";
     }
 
-    if (email.value !== validEmail || email.value !== "") {
+    if (email.value !== validEmail) {
         messages.push("Please provide a valid email address");
         email.style.border = "2px solid hsl(354, 100%, 66%)";
         errorElement.style.marginBottom = "2em";
