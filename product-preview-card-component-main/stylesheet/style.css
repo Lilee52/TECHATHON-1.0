@@ -24,6 +24,7 @@
     --heading-opacity: hsla(212, 21%, 14%, 70%);
     --font-family1: 'Fraunces', serif;
     --font-family2: 'Montserrat', sans-serif;
+    --hover-color: rgb(38, 71, 59);
 }
 
 body {
@@ -116,6 +117,10 @@ button {
     border: none;
     margin-top: 1em;
     font-weight: 700;
+}
+
+button:hover {
+    background: var(--hover-color);
 }
 
 
