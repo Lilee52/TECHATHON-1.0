@@ -244,12 +244,12 @@ input::placeholder {
     }
 
     input {
-        width: 310px;
+        width: 500px;
         padding-left: 6%;
     }
 
     #btn {
-        width: 160px;
+        min-width: 150px;
         height: 6vh;
     }
 
@@ -260,9 +260,9 @@ input::placeholder {
     }
 
     .image-container {
-        width: 768px;
+        width: 594px;
         margin-top: 2.5em;
-        padding-left: 40px;
+        /* padding-left: 40px; */
     }
 
     .social-icon {
