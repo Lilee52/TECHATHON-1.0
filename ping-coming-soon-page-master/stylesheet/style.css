@@ -31,7 +31,7 @@ nav {
 }
 
 .logo-container {
-    width: 65px;
+    width: 80px;
 }
 
 main {
@@ -119,6 +119,7 @@ input::placeholder {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 1em;
 }
 
 #btn {
@@ -153,7 +154,7 @@ input::placeholder {
 .icon-contain {
     border: 1px solid hsl(223, 100%, 88%);;
     display: flex;
-    height: 3.7vh;
+    height: 3.8vh;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -249,7 +250,7 @@ input::placeholder {
 
     #btn {
         width: 160px;
-        height: 6vh
+        height: 6vh;
     }
 
     #error {
@@ -259,12 +260,13 @@ input::placeholder {
     }
 
     .image-container {
-        width: 530px;
+        width: 768px;
         margin-top: 2.5em;
+        padding-left: 40px;
     }
 
     .social-icon {
-        margin-top: 3em;
+        margin-top: 4em;
     }
 
 
