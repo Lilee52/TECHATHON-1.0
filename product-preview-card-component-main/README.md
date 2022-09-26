@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Lilee52/TECHATHON-1.0/tree/main/product-preview-card-component-main)
-- Live Site URL: (https://lilee52.github.io/TECHATHON-1.0/product-preview-card-component-main/)
+- Live Site URL: (https://classy-cocada-d17e90.netlify.app/)
 
 ## My process
 
