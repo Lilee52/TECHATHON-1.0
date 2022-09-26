@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Lilee52/TECHATHON-1.0/tree/main/product-preview-card-component-main)
+- Live Site URL:(https://lilee52.github.io/TECHATHON-1.0/product-preview-card-component-main/)
 
 ## My process
 
