@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size: 16px;
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --font-weight1: 400;
+    --font-weight2: 700;
+    --font-family: 'Karla', sans-serif;
+}
+
+/* html,
+body {
+    height: 100%;
+} */
+
+/* html {
+    display: table;
+    margin: auto;
+} */
+
+body {
+    /* display: table-cell;
+    vertical-align: middle; */
+    background: var(--Light-Gray);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+
+main {
+    max-width: 400px;
+    margin: 3em auto;
+}
+
+p {
+    font-weight: var(--font-weight1);
+}
+
+.grid-1 {
+    background: white;
+    padding: 1em 1.5em 2em;
+}
+
+.grid-2 {
+    background: var(--Cyan);
+    padding: 1em 1.5em 2em;
+}
+
+.grid-3 {
+    background: hsl(179, 62%, 47%);
+    padding: 1em 1.5em 2em;
+}
+
+.grid-heading1 {
+    font-size: 24px;
+    font-weight: var(--font-weight1);
+    padding: 1em 0em 1em;
+    color: var(--Cyan);
+}
+
+.grid-subheading1 {
+    max-width: 210px;
+    color: var(--Bright-Yellow);
+    font-weight: var(--font-weight1);
+    line-height: 25px;
+}
+
+.paragraph-grid {
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+    max-width: 280px;
+    margin-top: 1.5em;
+}
+
+.white {
+    color: var(--Light-Gray);
+}
+
+.p {
+    margin-top: 0.5em;
+}
+
+.bolder {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.grid-2-p1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;  
+    font-weight: none;  
+}
+
+.p2 {
+    padding-top: 0.5em;
+}
+
+
+#submit {
+    width: 100%;
+    height: 7vh;
+    border-radius: 8px;
+    background: var(--Bright-Yellow);
+    color: var(--Light-Gray);
+    border: none;
+    margin-top: 2.5em;
+    box-shadow: 0px 15px 20px 0px hsla(179, 63%, 25%, 0.4);
+}
+
+.left {
+    width: 200px;
+}
+
+
+@media (min-width: 1000px) {
+  
+    main {
+        display: grid;
+        grid-template-areas: 
+        "a a"
+        "b c"
+        ;
+
+        grid-template-rows: (200px, 390px);
+        grid-template-columns: repeat(2, 320px);
+        margin: 4em auto 2em;
+        max-width: 646px;
+    }
+
+    .grid-1 {
+        grid-area: a;
+        padding: 2.5em;
+    }
+
+    .grid-2 {
+        grid-area: b;
+        padding: 2.5em;
+    }
+    
+
+    .grid-3 {
+        grid-area: c;
+        padding: 1.8em;
+    }
+
+    .paragraph-one {
+        min-width: 520px;
+    }
+
+    .left {
+        margin-top: -0.3em;
+        line-height: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
