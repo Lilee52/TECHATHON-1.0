@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="stylesheet" href="./Stylesheet/style.css" type="text/css" />
+  </head>
+  <body>
+            <!-- navbar containing links  -->
+    <header class="navbar">
+    <nav>
+      <div class="logo-and-hamburger">
+        <div class="logo-container">
+          <img src="./images/logo.svg" class="logo" alt="logo" />
+        </div>
+
+        <!-- div containing close and hamburger icon for mobile screens -->
+        <div class="hamburger-close-container">
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="hamburger"
+            class="hamburger icon"
+          />
+          <img src="./images/icon-close.svg" alt="close" class="close icon" />
+        </div>
+      </div>
+
+      <!-- div with the main nav links  -->
+      <div class="nav-menu">
+        <ul>
+          <!-- div containing main nav links and the sub-links for navbar -->
+          <div class="dropdown">
+            <li>
+              <div class="toggle">
+                <a href="#" class="nav-link-head">Product</a>
+              <img
+                src="/images/icon-arrow-dark.svg"
+                alt="dropdown-arrow"
+                class="dropdown-arrow dark"
+              />
+              <img 
+              src="/images/icon-arrow-light.svg"
+              alt="dropdown-arrow"
+              class="dropdown-arrow light"
+              />
+              </div>
+              <div class="sub-list">
+                <ul class="sub-nav-link-head first">
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Marketplace</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Integrations</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+
+          <!-- div for main nav links and sub-links for navbar -->
+          <div class="dropdown">
+            <li>
+              <div class="toggle">
+                <a href="#" class="nav-link-head">Company</a>
+              <img
+                src="/images/icon-arrow-dark.svg"
+                alt="dropdown-arrow"
+                class="dropdown-arrow dark"
+              />
+              <img 
+              src="/images/icon-arrow-light.svg"
+              alt="dropdown-arrow"
+              class="dropdown-arrow light"
+              />
+              </div>
+              <div class="sub-list">
+                <ul class="sub-nav-link-head second">
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Team</a>
+                  </li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+
+          <!-- div containing main nav links and the sub-links for navbar -->
+          <div class="dropdown">
+            <li>
+              <div class="toggle">
+                <a href="#" class="nav-link-head">Connect</a>
+              <img
+                src="/images/icon-arrow-dark.svg"
+                alt="dropdown-arrow"
+                class="dropdown-arrow dark"
+              />
+              <img 
+              src="/images/icon-arrow-light.svg"
+              alt="dropdown-arrow"
+              class="dropdown-arrow light"
+              />
+              </div>
+              
+              <div class="sub-list">
+                <ul class="sub-nav-link-head third">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Newsletter</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="line"></div>
+          <li class="login">
+            <a href="#" class="nav-link-head">Login</a>
+          </li>
+          
+            <li class="sign-up">
+              <a href="#" class="sign-up-btn">Sign Up</a>
+            </li>
+        </ul>
+      </div>
+
+      
+    </nav>
+    <h1 class="intro-heading all-headings">A modern publishing platform</h1>
+
+      <p class="intro-paragraph">
+        Grow your audience and build your online brand
+      </p>
+
+      <div class="navbar-flex">
+        <div class="nav-head-link-container">
+          <a href="#" class="nav-head-link white">Start for Free</a>
+        </div>
+
+        <div class="nav-head-link-container">
+          <a href="#" class="nav-head-link other">Learn More</a>
+        </div>
+      </div>
+
+    </header>
+    <!-- main tag containing the main section -->
+    <main>
+      <!-- first section -->
+      <section class="second-section section-1">
+          <h2 class="section-1-heading color1 all-headings exception">Designed for the future</h2>
+          <div class="flex-container-one">
+            <div class="section1-img">
+            </div>
+            <div class="inner-flex-section">
+              <h2 class="section-1-heading head2 color1 all-headings">Introducing an extensible editor</h2>
+              <p class="paragraph"> Blogr features
+              an exceedingly intuitive interface which lets you focus on one thing:
+              creating content. The editor supports management of multiple blogs and
+              allows easy manipulation of embeds such as images, videos, and Markdown.
+              Extensibility with plugins and themes provide easy ways to add functionality 
+              or change the looks of a blog.</p>
+  
+            <h2 class="section-1-heading head2 color1 all-headings">Robust content management</h2>
+            <p class="paragraph robust-content">Flexible content management enables users to easily move through posts.
+              Increase the usability of your blog by adding customized categories,
+              sections, format, or flow. With this functionality, you’re in full
+              control.</p>
+            </div>
+          </div>
+      </section>
+
+      <!-- second section -->
+      <section class="section-2">
+        <div class="section-2-img">
+          <img src="/images/illustration-phones.svg" alt="phones" class="phones"/>
+        </div>
+        <div class="section-2-paragaph"> 
+          <h2 class="second-section-heading only head2 all-headings">State of the Art Infrastructure</h2>
+        <p class="second-section-paragraph">
+          With reliability and speed in mind,
+        worldwide data centers provide the backbone for ultra-fast connectivity.
+        This ensures your site will load instantly, no matter where your readers
+        are, keeping your site competitive.
+        </p>
+        </div>
+      </section>
+
+      <!-- Third section -->
+        <section class="section-3">
+          <div class="laptop-container">
+          </div>
+        <div class="section-3-paragraph-container">
+          <h2 class="section-3-heading color1 all-headings">Free, open, simple</h2>
+        <p class="section-3-paragraph">
+          Blogr is a free and open source application backed by
+        a large community of helpful developers. It supports features such as
+        code syntax highlighting, RSS feeds, social media integration,
+        third-party commenting tools, and works seamlessly with Google
+        Analytics. The architecture is clean and is relatively easy to learn.
+
+        </p>
+        <h2 class="section-3-heading color1 all-headings">Powerful tooling</h2>
+        <p class="section-3-paragraph powerful-tooling">
+          Batteries included. We built a simple and
+        straightforward CLI tool that makes customization and deployment a
+        breeze, but capable of producing even the most complicated sites.
+        </p>
+        </div>
+      </section>  
+    </main>
+    
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-flex-1">
+          <h2 class="footer-head all-headings">Blogr</h2>
+        </div>
+        <div class="footer-flex-2">
+          <ul class="footer-links">
+            <li class="footer-link-head"><a href="#" >Product</a>
+              <ul class="footer-sub-links">
+                <li><a href="#" class="f-links"> Overview</a></li>
+                <li><a href="#" class="f-links">Pricing </a></li>
+                <li><a href="#" class="f-links">Marketplace</a></li>
+                <li><a href="#" class="f-links">Features </a></li>
+                <li><a href="#" class="f-links">Integrations</a></li>
+              </ul>
+            </li>
+            <li class="footer-link-head"><a href="#" >Company</a>
+              <ul class="footer-sub-links">
+                <li><a href="#" class="f-links">About</a></li>
+                <li><a href="#" class="f-links">Team</a></li>
+                <li><a href="#" class="f-links">Blog</a><li>
+                <li><a href="#" class="f-links">Careers</a></li>
+              </ul>
+            </li>
+            <li class="footer-link-head"><a href="#" >Connect</a>
+              <ul class="footer-sub-links">
+                <li><a href="#" class="f-links">Contact</a></li>
+                <li><a href="#" class="f-links">Newsletter</a></li>
+                <li><a href="#" class="f-links">LinkedIn</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+              
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >Coded by <a href="#">Lilian(imagine_lilies)</a>.
+      </div>
+    </footer>
+    
+    <script src="./Javascript/script.js"></script>
+  </body>
+</html>
