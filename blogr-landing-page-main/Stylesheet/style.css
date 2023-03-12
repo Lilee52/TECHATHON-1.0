@@ -418,6 +418,7 @@ footer a {
     color: var(--White);
     margin-bottom: 3em;
     margin-top: 2em;
+    width: 80px;
 }
 
 .footer-links {
@@ -722,25 +723,37 @@ footer a {
             height: 20em;
             display: flex;
             flex-direction: row;
-            justify-content: right;
+            justify-content: space-between;
             align-items: center;
             background-position: -70% 90%;
             background-size: 70% 190%;
+            gap: 5em;
         }
 
         .section-2-paragaph {
-            width: 550px;
+            max-width: 510px;
             margin: 0;
+            flex: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
         }
 
         .second-section-paragraph {
             text-align: left;
+            margin-left: 0;
+            min-width: 500px;
         }
 
         .phones {
             width: 400px;
-            top: -2em;
-            left: -36em;
+            margin-top: 8em;
+            position: relative;
+            margin-left: 6em;
+        }
+
+        .section-2-img {
+            flex: 50%;
         }
 
         .section-3 {
@@ -833,6 +846,10 @@ footer a {
                 max-width: 1280px;
             }
 
+            .section-2-paragaph {
+                max-width: 600px;
+            }
+
             .inner-flex-section {
                 padding-left: 8%;
 
@@ -889,4 +906,5 @@ footer a {
             .footer-container {
                 max-width: 1440px;
             }
-        }
+        } 
+        
