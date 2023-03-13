@@ -561,7 +561,7 @@ footer a {
 
     /* larger screens */
 
-    @media(min-width: 900px) {
+    @media(min-width: 1000px) {
         .navbar {
             max-width: 1024px;
             background-position: 46% 40%;
@@ -684,6 +684,7 @@ footer a {
         }
 
 
+
         .flex-container-one {
             display: flex;
             flex-direction: row-reverse;
@@ -704,13 +705,17 @@ footer a {
 
         .second-section-heading {
             margin-bottom: 0;
+            margin-left: 0;
             text-align: left;
         }
 
         .head2 {
-            max-width: 350px;
+            max-width: 340px;
             margin: 0;
+        }
 
+        .robust {
+            max-width: 310px;
         }
 
         .exception {
@@ -746,10 +751,9 @@ footer a {
         }
 
         .phones {
-            width: 400px;
-            margin-top: 8em;
+            width: 420px;
+            margin-top: 15.5em;
             position: relative;
-            margin-left: 6em;
         }
 
         .section-2-img {
@@ -830,10 +834,25 @@ footer a {
         @media (min-width: 1200px) {
             .navbar {
                 max-width: 1280px;
+                
+            }
+
+            nav {
+                margin: auto;
+                max-width: 1200px;
+            }
+
+            .nav-menu {
+                margin-left: 16em;
             }
 
             main {
                 max-width: 1280px;
+            }
+
+            .phones {
+            margin-left: 6em;
+
             }
 
             .section-2 {
@@ -876,6 +895,10 @@ footer a {
                 background-size: 500% 490%;
             }
 
+            .nav-menu {
+                margin-left: 17em;
+            }
+
             main {
                 max-width: 1440px;
             }
@@ -888,7 +911,7 @@ footer a {
 
             .phones {
                 width: 465px;
-                top: -3.4em;
+                top: -6.5em;
             }
 
             .second-section {
