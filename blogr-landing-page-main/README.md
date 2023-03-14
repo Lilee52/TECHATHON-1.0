@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Lilee52/TECHATHON-1.0/tree/main/blogr-landing-page-main)
+- Live Site URL: [Add live site URL here](https://snazzy-melba-503653.netlify.app/)
 
 ## My process
 
